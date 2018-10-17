@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+  }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #eee9de;
+  margin: 1.5rem;
+}
+
+p {
+  display: block;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin: 1.5rem;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin: 1.5rem;
+}
+
+a {
+  display: inline-block;
+}
+
+a:hover {
+  display: inline-block;
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  vertical-align: middle;
+}

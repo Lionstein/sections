@@ -1,6 +1,6 @@
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -26,6 +26,14 @@ h2 {
 
 a {
   display: inline-block;
+  font-family: "Lato", sans-serif;
+  color: #333;
+  text-decoration: none;
+  border-color: #333;
+  border: solid;
+  line-height: 1.5;
+  padding: 1em;
+  border-radius: .5em;
 }
 
 a:hover {
@@ -41,4 +49,7 @@ img {
   width: 100%;
   max-width: 25em;
   vertical-align: middle;
+  text-align: left;
+  padding: .75em;
+  float: left;
 }

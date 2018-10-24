@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5rem;
+  line-height: 1.5;
   font-family: Lato, sans-serif;
 }
 
@@ -9,17 +9,15 @@ html {
 }
 
 body {
-  display: inline-block;
   background-color: #eee9de;
   text-align: center;
-  vertical-align: middle;
-  margin: 0 auto;
+  margin: 0;
 }
 
 h2 {
   display: inline-block;
   font-weight: bold;
-  margin: .5em 0 0 .35em;
+  margin: 0 0 1.5rem;
 }
 
 a {
@@ -29,8 +27,7 @@ a {
   text-decoration: none;
   border-color: #333;
   border: solid;
-  line-height: 1.5;
-  padding: .5em;
+  padding: .4em .75em .5em;
   border-radius: .5em;
 }
 
@@ -42,28 +39,35 @@ a:hover {
   text-decoration: none;
 }
 
+.image {
+  padding: 1em;
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
+}
+
 img {
   display: block;
   width: 100%;
-  padding: .5em .75em;
-  text-align: left;
-  max-width: 25em;
-  float: left;
 }
 
 section {
-  margin: 2.5em 0;
+  padding: 2em 0;
 }
 
 .btn {
   text-align: left;
-  padding-bottom: 3em;
+  font-size: 1.125rem;
 }
 
 .text {
   display: inline-block;
   text-align: left;
   max-width: 25em;
-  float: left;
-  margin: 0 0 0 .5em;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0 0 1.5rem;
 }
